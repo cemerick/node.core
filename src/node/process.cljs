@@ -2,7 +2,7 @@
   (:require [node.utils :refer [json->edn
                                 reflect-atom-fields!
                                 pipe-events-onto-atom!]]
-            [node.process.patch]
+;            [node.process.patch]
             [clojure.string :as string]))
 
 (def ^:private *process* js/process)
